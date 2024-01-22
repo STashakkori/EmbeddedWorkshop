@@ -1,0 +1,7 @@
+// $t@$h
+#ifndef USERAPPLICATION_H
+#define USERAPPLICATION_H
+
+void userApplicationEntryPoint();
+
+#endif // USERAPPLICATION_H
