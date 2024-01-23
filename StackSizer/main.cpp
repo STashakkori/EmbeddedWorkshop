@@ -10,7 +10,6 @@ extern "C" {
 int main() {
     StackTester tester(&_stack_start, &_stack_end);
 
-    // Call the user's application entry point
     userApplicationEntryPoint();
 
     std::size_t stackUsed = tester.checkUsage();
